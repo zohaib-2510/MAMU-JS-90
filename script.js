@@ -10,4 +10,4 @@ var mark3 = +prompt('ENETR YOUR'+' '+ name3 +' '+ 'MARKS')
 var totsl =  mark1 + mark2 + mark3
 var perc = (totsl / 300) * 100 
  document.write('YOUR TOTAL MARKS OF ALL SUBJECT IS'+' '+ totsl+' '+'AND YOUR PERCENTAGE IS'
- +' '+perc+"%"+ ' '+ 'OUT OF 100')
+ +' '+perc.toFixed(2)+"%"+ ' '+ 'OUT OF 100%')
